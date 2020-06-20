@@ -28,8 +28,13 @@
 			<nav id="menu">
 				<ul class="links">
 					<li><a href="index.html">Home</a></li>
-					<li><a href="elements.html">Elements</a></li>
+					<li><a href="codebaseblog.html">Recent Blog</a></li>
 					<li><a href="current.html">Current Projects</a></li>
+                    <li><a href="codebaseblog.html">Code Base</a></li>
+                    <li><a href="researchnetwork.html">Research Network</a></li>
+                    <li><a href="citeandref.html">Citations</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+<!--                    <li><a href="current.html"></a></li>-->
 				</ul>
 			</nav>
 
@@ -54,36 +59,8 @@
 				</div>
 			</section>
 
-		<!-- Footer -->
-			<footer id="footer">
-				<div class="inner">
-					<div class="content">
-						<section>
-							<!--<h3>Accumsan montes viverra</h3>
-							<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing. Lorem ipsum dolor vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing sed feugiat eu faucibus. Integer ac sed amet praesent. Nunc lacinia ante nunc ac gravida.</p>-->
-						</section>
-						<section>
-							<!--<h4>Sem turpis amet semper</h4>
-							<ul class="alt">
-								<li><a href="#">Dolor pulvinar sed etiam.</a></li>
-								<li><a href="#">Etiam vel lorem sed amet.</a></li>
-								<li><a href="#">Felis enim feugiat viverra.</a></li>
-								<li><a href="#">Dolor pulvinar magna etiam.</a></li>
-							</ul>
-						</section>-->
-						<section>
-							<h4>Social Media</h4>
-							<ul class="plain">
-								<li><a href="https://twitter.com/bryantachambers"><i class="icon fa-twitter">&nbsp;</i>Twitter</a></li>
-								<li><a href="#"><i class="icon fa-github">&nbsp;</i>Github</a></li>
-							</ul>
-						</section>
-					</div>
-					<div class="copyright">
-						&copy; bryantchambers. Photos <a href="https://unsplash.co">Unsplash</a>, Video <a href="https://coverr.co">Coverr</a>.
-					</div>
-				</div>
-			</footer>
+<!--FOOTER CALL-->
+        <?php include 'footer.php';?>
 
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
