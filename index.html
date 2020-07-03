@@ -6,6 +6,24 @@
 -->
 <html>
 	<head>
+        
+<!--script loads for footer and head/menu-->
+        <script src="assets/js/jquery.min.js"></script>
+        <script>
+        $(function(){
+         $("#FOOTERSTUFF").load("components/footer.html");
+        });
+        </script>
+        
+        <script src="assets/js/jquery.min.js"></script>
+        <script>
+        $(function(){
+         $("#HEADSTUFF").load("components/header.html");
+        });
+        </script>
+        
+        
+        
 		<title>ENVIROinformatics</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
@@ -14,28 +32,8 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 	</head>
 	<body class="is-preload">
-
-		<!-- Header -->
-			<header id="header">
-				<a class="logo" href="index.html">ENVIROinformatics</a>
-				<nav>
-					<a href="#menu">Menu</a>
-				</nav>
-			</header>
-
-<!-- Nav -->
-			<nav id="menu">
-				<ul class="links">
-					<li><a href="index.html">Home</a></li>
-					<li><a href="codebaseblog.html">Recent Blog</a></li>
-					<li><a href="current.html">Current Projects</a></li>
-                    <li><a href="codebaseblog.html">Code Base</a></li>
-                    <li><a href="researchnetwork.html">Research Network</a></li>
-                    <li><a href="citeandref.php">Citations</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-<!--                    <li><a href="current.html"></a></li>-->
-				</ul>
-			</nav>
+<!-- header and menu nav-->
+<div id="HEADSTUFF"></div> 
 
 		<!-- Banner -->
 			<section id="banner">
@@ -52,48 +50,54 @@
 			<section class="wrapper">
 				<div class="inner">
 					<header class="special">
-						<h2>~Bioinformatics with an Environmental Twist~</h2>
-						<p>The increasing challenges our environment faces must be met with modern approaches. Enter environmental bioinformatics. By applying the full depth of modern transcriptomics and deep sequencing tenchnologies, my research provides a new lens for understanding environmental drivers, toxicology, antibiotic resistance, and evolutionary selective pressure. In time this approach will allow for a full "systems" understanding of environmental networks. Ask any question. </p>
+						<h2>Bioinformatics with an Environmental Twist</h2>
+						<p>The increasing challenges our environment faces must be met with modern approaches. Enter environmental bioinformatics. By applying the full depth of modern transcriptomics and deep sequencing tenchnologies, my research provides a new lens for understanding environmental drivers, toxicology, antibiotic resistance, and evolutionary selective pressure. In time this approach will allow for a full "systems" understanding of environmental networks. Ask any question.</p>
 					</header>
+                    
+                    
 					<div class="highlights">
 						<section>
 							<div class="content">
 								<header>
-									<a href="contact.html" class="icon fa-qrcode"><span class="label">Icon</span></a>
+									<a href="pages/contact.html" class="icon fa-qrcode"><span class="label">Icon</span></a>
 									<h3>Contact Information</h3>
 								</header>
 								<p>Find out how to get in touch, follow me on social media, and at what conferences I will be presenting. I am always excited to meet with other researcher and learn about their investigations.</p>
 							</div>
 						</section>
+                        
 						<section>
 							<div class="content">
 								<header>
-									<a href="current.html" class="icon fa-files-o"><span class="label">Icon</span></a>
+									<a href="pages/current.html" class="icon fa-files-o"><span class="label">Icon</span></a>
 									<h3>Current Projects</h3>
 								</header>
 								<p>I am currently working on more than seven projects with four institutions. My central platform supports Tox21 and transcriptional toxicology efforts at the US EPA. In addition to this work, I am a Co-PI on a team discovering the central drivers of antibiotic resistance evolution in the environment <!as a Co-PI on NSF award 1916709. This exciting work has already found new dimensions that may be contributing to this ever worsening problem. This work will drastically reduce the cost and time to evaluate problematic chemcials in consumer goods and the environment. >
                                 </p>
 							</div>
 						</section>
+                        
 						<section>
 							<div class="content">
 								<header>
-									<a href="codebaseblog.html" class="icon fa-floppy-o"><span class="label">Icon</span></a>
+									<a href="pages/codebaseblog.html" class="icon fa-floppy-o"><span class="label">Icon</span></a>
 									<h3>Codebase</h3>
 								</header>
 								<p>I understand the need for open sharing  of code based methodologies. Making code available to others increases the speed of research and allows for better peer review. Here you can find my bioinformatics tools that are now available to the public as well as a small blog about useful tools!</p>
 							</div>
 						</section>
+                        
 						<section>
 							<div class="content">
 								<header>
-									<a href="citeandref.php" class="icon fa-line-chart"><span class="label">Icon</span></a>
+									<a href="pages/citeandref.html" class="icon fa-line-chart"><span class="label">Icon</span></a>
 									<h3>Citations and References</h3>
 								</header>
 								<p>Find references and metrics for published literature and gain insight into up comming releases
                                 </p>
 							</div>
 						</section>
+                        
 						<!--<section>
 							<div class="content">
 								<header>
@@ -106,7 +110,7 @@
 						<section>
 							<div class="content">
 								<header>
-									<a href="researchnetwork.html" class="icon fa-vcard-o"><span class="label">Icon</span></a>
+									<a href="pages/researchnetwork.html" class="icon fa-vcard-o"><span class="label">Icon</span></a>
 									<h3>Research Network</h3>
 								</header>
 								<p>Connect with other researchers engaged in environmental informatics and computational investigations.
@@ -177,37 +181,7 @@
 			</section>-->
 
 		<!-- Footer -->
-			<footer id="footer">
-				<div class="inner">
-					<div class="content">
-						<section>
-							<h3>Social Science</h3>
-							<p>Engagewith me on social media. The science community is more than just analysis and results. It is about engaging with the public and fellow research. Ideas must be challenged and revised. I'd love to know what you think and what you are are thinking about.
-                            -Bryant
-                            </p>
-						</section>
-						<section>
-							<h4>usernames</h4>
-							<ul class="alt">
-								<li><a href="#">twitter @bryantachambers</a></li>
-								<li><a href="#">Github u:bryantchambers</a></li>
-							</ul>
-						</section>
-						<section>
-							<h4><!-- place holder --></h4>
-							<ul class="plain">
-								<li><a href="#"><i class="icon fa-twitter">&nbsp;</i>Twitter</a></li>
-								<!--<li><a href="#"><i class="icon fa-facebook">&nbsp;</i>Facebook</a></li>-->
-								<!--<li><a href="#"><i class="icon fa-instagram">&nbsp;</i>Instagram</a></li>-->
-								<li><a href="#"><i class="icon fa-github">&nbsp;</i>Github</a></li>
-							</ul>
-						</section>
-					</div>
-					<div class="copyright">
-						&copy; Bryant A. Chambers, Ph.D. Photos <a href="https://unsplash.co">Unsplash</a>.
-					</div>
-				</div>
-			</footer>
+        <div id="FOOTERSTUFF"></div>      
 
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>

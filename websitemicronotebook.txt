@@ -1,0 +1,11 @@
+Things to do:
+
+
+1. build out codebase page
+2. build a navigation right side panel - this is so that I can have a nav panel for 
+    a. the blogs and codebase
+    b. current and past projects
+    
+3. Link out to friends
+4. update status
+5. post dad filter HTML notebook
